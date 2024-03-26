@@ -1,0 +1,38 @@
+
+//Chuong Dang
+//Edmonds College
+//Project 7
+///////////////////////////////////////////////////////////////////////////////////////////////
+#ifndef _CITY_H
+#define _CITY_H
+
+#include <iostream>
+#include <vector>
+#include <random>
+#include <ctime>
+#include <cstdlib>
+#include <string>
+
+using namespace std;
+
+class city{
+public:
+    city(int cities);
+
+    vector<int> x();
+
+    vector<int> y();
+
+    vector<int> move();
+
+    vector<int> getSize();
+private:
+    vector<int> x_c;
+    vector<int> y_c;
+    vector<int> size;
+    vector<int> direction;
+};
+
+#endif
+city.h
+Displaying city.h.
